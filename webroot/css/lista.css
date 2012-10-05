@@ -1,0 +1,184 @@
+#lista
+{
+	margin: 0px auto;
+	width: 90%;
+}
+.lista
+{
+	margin: 10px auto;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	background-color: #fff;
+}
+
+.lista tr td,
+.lista tr th
+{
+	border: 1px solid #ccc;
+	padding: 1px 3px 1px 3px;
+}
+
+.lista tr th
+{
+	background-color: #cadef7;
+}
+
+#listaBarra
+{
+	margin-top: 10px;
+}
+#listaBarra input
+{
+	width: 120px;
+	height: 28px;
+	background-color: #EAEAEA;
+	border-radius: 9px; /* CSS 3 */
+	-o-border-radius: 9px; /* Opera */
+	-icab-border-radius: 9px; /* iCab */
+	-khtml-border-radius: 9px; /* Konqueror */
+	-moz-border-radius: 9px; /* Firefox */
+	-webkit-border-radius: 9px; /* Safari */
+	border: 1px solid #ccc;
+	font-size: 13px;
+}
+
+#listaBarra input:hover
+{
+	cursor: pointer;
+}
+
+#listaBarra select,
+.lista input,
+.lista select
+{
+	border: none;
+	font-size: 12px;
+	border: 1px solid #eee;
+}
+
+.lista .thNome
+{
+	width: 300px;
+}
+
+.lista .inNome
+{
+	width: 300px;
+}
+
+#btVoltar
+{
+	background: url(../img/icone_voltar.png) no-repeat 5px;	
+}
+#btAtual
+{
+	background: url(../img/icone_atualizar.png) no-repeat 5px;	
+}
+#btSalvar
+{
+	background: url(../img/icone_salvar.png) no-repeat 5px;	
+	text-align: right;
+}
+
+#acaoLista
+{
+	width: 300px;
+}
+
+#listaMenu
+{
+	float: left;
+	min-width: 140px;
+	height: 425px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin-top: 9px;
+	border-radius: 4px; /* CSS 3 */
+	-o-border-radius: 4px; /* Opera */
+	-icab-border-radius: 4px; /* iCab */
+	-khtml-border-radius: 4px; /* Konqueror */
+	-moz-border-radius: 4px; /* Firefox */
+	-webkit-border-radius: 4px; /* Safari */
+	border: 1px solid #ccc;
+	overflow-y: scroll;
+}
+
+#listaMenu ol li
+{
+	display: block;
+	/*line-height: 30px;*/
+}
+#listaMenu ol li a
+{
+	display: block;
+	padding: 5px;
+}
+#listaMenu ol li a:hover
+{
+	background-color: #CADEF7;
+}
+#listaMenu ol li span
+{
+	background-color: #EAEAEA;
+	padding: 5px;
+	display: block;
+}
+
+#listaTab
+{
+	float: left;
+	margin: 0px 0px 0px 5px;
+}
+
+#listaNavegacao
+{
+	float: left;
+	min-width: 100px;
+	text-align: center;
+	line-height: 24px;
+	margin: 0px 5px 0px 0px;
+}
+
+#listaNavegacao ol li
+{
+	width: 40px;
+	height: 24px;
+	background-color: #EAEAEA;
+	margin: 2px 2px 0px 2px;
+	display: block;
+	float: left;
+	border-radius: 4px; /* CSS 3 */
+	-o-border-radius: 4px; /* Opera */
+	-icab-border-radius: 4px; /* iCab */
+	-khtml-border-radius: 4px; /* Konqueror */
+	-moz-border-radius: 4px; /* Firefox */
+	-webkit-border-radius: 4px; /* Safari */
+	border: 1px solid #ccc;
+	color: #ddd;
+}
+#listaNavegacao ol li a
+{
+	display: block;
+	cursor: pointer;
+}
+#listaNavegacao ol li a:hover
+{
+	background-color: #CADEF7;
+}
+
+#listaNavegacao #pgLi
+{
+	width: 80px;
+	text-align: center;
+}
+#listaNavegacao #pgLi select
+{
+	width: 70px;
+	text-align: center;
+	background-color: none;
+}
+
+#listaBotoes
+{
+
+}

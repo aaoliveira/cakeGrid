@@ -1,0 +1,36 @@
+1 - Requisitos
+Servidor Apache com módulo rewrite habilitado, php5+ e mysql5+
+
+2 - Descompactação
+Descompacte o arquivo zip no diretório raiz do seu servidor web.
+Se você está usando Apache em servidor linux, o diretório padrão deve ser:
+/var/www
+
+No caso de servidores GNU/Linux, dê permissão de escrita ao diretório temporário
+# chmod 1777 -R /var/www/sg/tmp
+ou
+# chown www-data.www-data -R /var/www/sg/tmp
+
+* "sg" é o novo direorio criado na descompactação do arquivo zip.
+
+Se você está usando Xampp no windows, o diretório deve ser:
+c:\xampp\hddocs
+
+Certifiqui-se com o administrador do seu servidor qual é o diretóri correto.
+
+Após a descompactação basta acessar:
+
+http://seu_servido_web/sg
+
+Verifique com o administrador, o ip ou hostname do seu servidor web, se está 
+usando sua máquina local, basta acessar http://localhost/sg
+
+O login e senha do usuáruio administrár é "admin" e "admin" respectivametne.
+
+Na primeira tentativa de acesso, o sistema irá guiar os passos da instalação, que 
+basicamente, em instalar o banco de dados e importar o módulo básico.
+
+Para alterar as configurações do banco de dados, acesso o arquivo
+APP/Config/database.php
+
+Divirta-se.

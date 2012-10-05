@@ -1,0 +1,108 @@
+#index ol
+{
+	margin: 0px auto; width: 90%; 
+	padding: 5px;
+}
+
+#index ol li
+{
+	display: inline-block;
+	vertical-align: top;
+}
+#index ol li ul
+{
+	margin: 13px 0px 0px 0px;
+}
+#index ol li img
+{
+	float: left;
+}
+#index ol li label
+{
+	font-weight: bold;
+	line-height: 30px;
+	height: 32px;
+	display: block;
+	float: left;
+	margin: 0px 0px 0px 6px;
+}
+#index ul li
+{
+	display: block;
+	margin: 0px 0px 0px 10px;
+	min-width: 140px;
+}
+#index ul li a
+{
+	display: block;
+	padding: 2px;
+	border-radius: 5px; /* CSS 3 */
+	-o-border-radius: 5px; /* Opera */
+	-icab-border-radius: 5px; /* iCab */
+	-khtml-border-radius: 5px; /* Konqueror */
+	-moz-border-radius: 5px; /* Firefox */
+	-webkit-border-radius: 5px; /* Safari */
+}
+#index ul li a:hover
+{
+	background-color: #c4deed;
+}
+
+#info,
+#login
+{
+	border: 1px solid #ccc;
+	min-height: 100px;
+	margin: 50px auto;
+	padding: 5px;
+	border-radius: 9px; /* CSS 3 */
+	-o-border-radius: 9px; /* Opera */
+	-icab-border-radius: 9px; /* iCab */
+	-khtml-border-radius: 9px; /* Konqueror */
+	-moz-border-radius: 9px; /* Firefox */
+	-webkit-border-radius: 9px; /* Safari */
+}
+
+#info
+{
+	width: 500px;
+	margin: 10px auto;
+}
+
+#login
+{
+	width: 350px;
+}
+
+#info h4
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#UsuarioLogin,
+#UsuarioSenha
+{
+	width: 100px;
+}
+
+#info label
+{
+	display: block;
+	float: left;
+	text-align: right;
+	margin: 0px 5px 0px 0px;
+	width: 140px;
+	text-transform: capitalize;
+}
+
+.thLogin
+{
+	width: 120px;
+}
+
+#tdUsuariosLogin
+{
+	text-align: center;
+}

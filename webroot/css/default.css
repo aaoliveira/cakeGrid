@@ -1,0 +1,201 @@
+a,
+a:visited 
+{
+	text-decoration: none;
+	color: #333;
+}
+a:hover 
+{
+	text-decoration: none;
+	color: green;
+}
+a:active 
+{
+	text-decoration: none;
+}
+ol li
+{
+	display: inline;
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-family: verdana, arial, times;
+	background-color: #fff;
+	/*background-image: url("../img/page_t.jpg");*/
+}
+#cabecalho
+{
+	height: 30px;
+	background-color: #cadef7;
+	border-bottom: 3px solid #a3a7ba;
+}
+
+#cabecalho #ponteiro
+{
+	float: left;
+	margin: 6px 0px 0px 10px;
+	font-size: 12px;
+}
+
+#cabecalho #menuLogin
+{
+	float: right;
+	margin: 6px 10px 0px 0px;
+	font-size: 12px;
+}
+
+#cabecalho #imgSistema
+{
+	float: left;
+	margin: 2px 0px 5px 10px;
+}
+#cabecalho #titSistema
+{
+	float: left;
+	margin: 2px 0px 0px 10px;
+	font-size: 18px;
+	color: #333;
+}
+
+#cabecalho #titSistema a
+{
+	letter-spacing: 2px;
+	color: #7f7a7a;
+	text-transform: uppercase;
+	margin: -5px 0px 0px 0px;
+}
+
+#flashMessage
+{
+	position: absolute;
+	font-size: 16px;
+	min-width: 300px;
+	text-align: center;
+	z-index: 900;
+	line-height: 30px;
+	width: 100%;
+}
+
+#corpo
+{
+	position: relative;
+	background-color: #fff;
+	width: 100%;
+	margin: 0px auto;
+}
+
+#pagina
+{
+	min-height: 600px;
+}
+
+.edicao label
+{
+	display: block;
+	float: left;
+	min-width: 120px;
+	text-align: right;
+}
+
+.edicao .input.text,
+.edicao .input.password,
+.edicao .input.select
+{
+	float: left;
+	margin: 0px 0px 5px 0px;
+}
+
+.edicao label
+{
+	margin: 0px 5px 0px 0px;
+}
+
+.edicao input
+{
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #ccc;;
+}
+
+.edicao .submit input
+{
+	width: 100px;
+}
+
+.spanErro
+{
+	color: red;
+}
+.spanOk
+{
+	color: green;
+}
+
+.cake-sql-log
+{
+	font-size: 10px;
+	margin: 0px auto;
+	padding: 2px;
+	background-color: #fff;
+}
+
+.cake-sql-log-tr
+{
+	background-color: #eee;
+}
+
+#menuAdmin
+{
+	font-size: 12px;
+}
+
+#menuAdmin ul li
+{
+	display: inline-block;
+}
+
+.msgOk
+{
+	background-color: green;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.msgErro
+{
+	background-color: red;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+#rodape
+{
+	text-align: center;
+	font-style: italic;
+	font-size: 10px;
+	background-color: #cadef7;
+	height: 50px;
+	line-height: 25px;
+	border-top: 3px solid #8c8c8c;
+	clear: both;
+}
+
+.cake-debug-output
+{
+	clear: both;
+}
+
+#listaErros
+{
+	clear: both;
+	color: red;
+	margin: 0px auto;
+}
+
+#listaErros ol li
+{
+	display: block;
+}
